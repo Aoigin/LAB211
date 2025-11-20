@@ -1,0 +1,3 @@
+[submodule "BMI_Calculator"]
+	path = BMI_Calculator
+	url = https://github.com/Aoigin/BMI_Calculator.git
