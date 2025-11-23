@@ -1,0 +1,13 @@
+as you can see,Detecting whether a string is normalized can be quite efficient. A lot of the cost of normalizing in the"    second row    "is for the initialization of buffers.The cost of which is amortized when one is processing larger strings.
+
+ As it turns out, These buffers are rarely needed, so we may change the implementation at some point to speed up the common case for small strings even further
+as you can see,Detecting whether a string is normalized can be quite efficient. A lot of the cost of normalizing in the"    second row    "is for the initialization of buffers.The cost of which is amortized when one is processing larger strings.
+
+ As it turns out, These buffers are rarely needed, so we may change the implementation at some point to speed up the common case for small strings even further
+
+
+Nhân dịp sinh nhật, JS Club xin gửi đến Vũ Đình Thái những lời chúc tốt đẹp nhất: chúc bạn thật nhiều sức khỏe, hạnh phúc và niềm vui. Chúc Thái tiếp tục giữ vững phong độ đỉnh cao, chinh
+
+
+
+ phục những mục tiêu mới trên chặng đường đại học sắp tới. Mong rằng dù ở đâu, bạn vẫn luôn giữ được tinh thần tích cực và khát khao tri thức vốn là “thương hiệu” riêng của mình!
