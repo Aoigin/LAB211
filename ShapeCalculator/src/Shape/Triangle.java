@@ -73,4 +73,13 @@ public class Triangle extends Shape{
         System.out.printf("Perimeter: %.2f\n", getPerimeter());
     }
     
+    public String getResult() {
+        return "-----Triangle-----\n"
+                + String.format("Side A: %.2f\n", sideA)
+                + String.format("Side B: %.2f\n", sideB)
+                + String.format("Side C: %.2f\n", sideC)
+                + String.format("Area: %.2f\n", getArea())
+                + String.format("Perimeter: %.2f\n", getPerimeter());
+    }
+    
 }

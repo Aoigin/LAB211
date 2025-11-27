@@ -8,13 +8,13 @@ package Shape;
  *
  * @author LE THI BICH NGAN
  */
-public class Circle extends Shape{
+public class Circle extends Shape {
+
     private double radius;
 
     public Circle() {
     }
 
-    
     public Circle(double radius) {
         this.radius = radius;
     }
@@ -26,15 +26,15 @@ public class Circle extends Shape{
     public void setRadius(double radius) {
         this.radius = radius;
     }
-    
+
     @Override
-    public double getPerimeter(){
-        return 2*Math.PI*radius;
+    public double getPerimeter() {
+        return 2 * Math.PI * radius;
     }
 
     @Override
     public double getArea() {
-        return Math.PI*Math.pow(radius, 2);
+        return Math.PI * Math.pow(radius, 2);
     }
 
     @Override
@@ -44,4 +44,12 @@ public class Circle extends Shape{
         System.out.printf("Area: %.2f\n", getArea());
         System.out.printf("Perimeter: %.2f\n", getPerimeter());
     }
+
+    public String getResult() {
+        return "-----Circle-----\n"
+                + String.format("Radius: %.2f\n", radius)
+                + String.format("Area: %.2f\n", getArea())
+                + String.format("Perimeter: %.2f\n", getPerimeter());
+    }
+
 }

@@ -1,0 +1,26 @@
+HIỂN THỊ GUI
+Swing là bộ thư viên GUI chính của Java:
+- JFrame : cửa sổ chương trình
+- JLabel : văn bản mô tả
+- JTextField : ô nhập 
+- JButton : nút
+- JTextArea : vùng kết quả
+- JScrollPane : thanh cuộn
+- JOptionPane : popup thông báo
+- BorderFactory : tạo border trang trí
+
+AWT bổ sung cho Swing:
+- LayoutManager (GridBagLayout)
+- Insets (khoảng cách)
+- Font (font chữ)
+- Color
+==> Swing + AWT = GUI đầy đủ
+
+Main GUI extends JFrame để đặt nền tảng cho cửa sổ ứng dụng để đặt mọi thành phần lên
+
+GridBagLayout là layout rất mạnh, cho phép:
+- Đặt vị trí theo hàng - cột(gridx, gridy)
+- Chỉnh độ rộng, lấp chỗ trống
+- Căn trái/phải/giữa
+
+Màu RGB (red,green,blue)

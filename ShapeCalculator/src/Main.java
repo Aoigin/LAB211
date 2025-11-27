@@ -12,6 +12,7 @@ import java.util.Scanner;
  *
  * @author LE THI BICH NGAN
  */
+//Main console bình thường
 public class Main {
 
     static Scanner sc = new Scanner(System.in);
