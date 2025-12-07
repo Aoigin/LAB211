@@ -7,7 +7,7 @@ Code:
 J1.S.P0005
 
 LOC:
-70
+40
 
 Slot(s):
 1
